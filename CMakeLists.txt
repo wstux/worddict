@@ -23,4 +23,6 @@ include(${COMMON_MAIN_CMAKE} PUBLIC)
 ################################################################################
 
 add_subdirectory(externals)
+add_subdirectory(libs/worddict)
+add_subdirectory(tests)
 
